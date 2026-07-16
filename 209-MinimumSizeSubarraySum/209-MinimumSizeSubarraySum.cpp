@@ -9,7 +9,6 @@
 8        int high;
 9        for (high=0;high<n;++high){
 10            sum+=nums[high];
-11        
 12        while(sum>=target){
 13            minlen= min(minlen,high-low+1);
 14            sum-=nums[low];
